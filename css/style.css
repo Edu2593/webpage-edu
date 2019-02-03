@@ -1599,24 +1599,24 @@ form label {
   float: left;
 }
 
-#gtco-portfolio {
+#gtco-assignments {
   padding: 7em 0;
   background: #303841;
   min-height: 500px;
 }
 @media screen and (max-width: 768px) {
-  #gtco-portfolio {
+  #gtco-assignments {
     padding: 3em 0;
   }
 }
-#gtco-portfolio .gtco-heading h2 {
+#gtco-assignments .gtco-heading h2 {
   color: #fff;
 }
-#gtco-portfolio .gtco-heading p {
+#gtco-assignments .gtco-heading p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#gtco-portfolio-list {
+#gtco-assignments-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -1631,7 +1631,7 @@ form label {
   margin: 0;
   width: 100%;
 }
-#gtco-portfolio-list li {
+#gtco-assignments-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -1645,18 +1645,18 @@ form label {
   position: relative;
 }
 @media screen and (max-width: 480px) {
-  #gtco-portfolio-list li {
+  #gtco-assignments-list li {
     margin-left: 0;
   }
 }
-#gtco-portfolio-list li a {
+#gtco-assignments-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#gtco-portfolio-list li a:before {
+#gtco-assignments-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -1668,43 +1668,43 @@ form label {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#gtco-portfolio-list li a.color-1:before {
+#gtco-assignments-list li a.color-1:before {
   background: rgba(55, 75, 84, 0.7);
 }
-#gtco-portfolio-list li a.color-1:hover:before {
+#gtco-assignments-list li a.color-1:hover:before {
   background: rgba(55, 75, 84, 0);
 }
-#gtco-portfolio-list li a.color-2:before {
+#gtco-assignments-list li a.color-2:before {
   background: rgba(37, 190, 213, 0.7);
 }
-#gtco-portfolio-list li a.color-2:hover:before {
+#gtco-assignments-list li a.color-2:hover:before {
   background: rgba(37, 190, 213, 0);
 }
-#gtco-portfolio-list li a.color-3:before {
+#gtco-assignments-list li a.color-3:before {
   background: rgba(239, 172, 147, 0.7);
 }
-#gtco-portfolio-list li a.color-3:hover:before {
+#gtco-assignments-list li a.color-3:hover:before {
   background: rgba(239, 172, 147, 0);
 }
-#gtco-portfolio-list li a.color-4:before {
+#gtco-assignments-list li a.color-4:before {
   background: rgba(249, 17, 40, 0.7);
 }
-#gtco-portfolio-list li a.color-4:hover:before {
+#gtco-assignments-list li a.color-4:hover:before {
   background: rgba(249, 17, 40, 0);
 }
-#gtco-portfolio-list li a.color-5:before {
+#gtco-assignments-list li a.color-5:before {
   background: rgba(252, 68, 40, 0.7);
 }
-#gtco-portfolio-list li a.color-5:hover:before {
+#gtco-assignments-list li a.color-5:hover:before {
   background: rgba(252, 68, 40, 0);
 }
-#gtco-portfolio-list li a.color-6:before {
+#gtco-assignments-list li a.color-6:before {
   background: rgba(98, 177, 215, 0.7);
 }
-#gtco-portfolio-list li a.color-6:hover:before {
+#gtco-assignments-list li a.color-6:hover:before {
   background: rgba(98, 177, 215, 0);
 }
-#gtco-portfolio-list li a .case-studies-summary {
+#gtco-assignments-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -1713,58 +1713,58 @@ form label {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #gtco-portfolio-list li a .case-studies-summary {
+  #gtco-assignments-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#gtco-portfolio-list li a .case-studies-summary span {
+#gtco-assignments-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#gtco-portfolio-list li a .case-studies-summary h2 {
+#gtco-assignments-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #gtco-portfolio-list li a .case-studies-summary h2 {
+  #gtco-assignments-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#gtco-portfolio-list li.two-third {
+#gtco-assignments-list li.two-third {
   width: 65.6%;
 }
 @media screen and (max-width: 768px) {
-  #gtco-portfolio-list li.two-third {
+  #gtco-assignments-list li.two-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #gtco-portfolio-list li.two-third {
+  #gtco-assignments-list li.two-third {
     width: 100%;
   }
 }
-#gtco-portfolio-list li.one-third {
+#gtco-assignments-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #gtco-portfolio-list li.one-third {
+  #gtco-assignments-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #gtco-portfolio-list li.one-third {
+  #gtco-assignments-list li.one-third {
     width: 100%;
   }
 }
-#gtco-portfolio-list li.one-half {
+#gtco-assignments-list li.one-half {
   width: 49%;
 }
 @media screen and (max-width: 480px) {
-  #gtco-portfolio-list li.one-half {
+  #gtco-assignments-list li.one-half {
     width: 100%;
   }
 }
