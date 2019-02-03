@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -401,10 +401,10 @@ h1, h2, h3, h4, h5, h6, figure {
   *display: inline;
 }
 
-.gtco-services {
+.gtco-fproject {
   padding: 7em 0;
 }
-.gtco-services .service {
+.gtco-fproject .fproject {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
@@ -421,39 +421,39 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 @media screen and (max-width: 992px) {
-  .gtco-services .service {
+  .gtco-fproject .fproject {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 20px;
   }
 }
-.gtco-services .service h3 {
+.gtco-fproject .fproject h3 {
   font-size: 18px;
   color: #000;
   text-align: left;
   position: relative;
   padding-left: 30px;
 }
-.gtco-services .service h3 i {
+.gtco-fproject .fproject h3 i {
   position: absolute;
   left: 0;
   top: -0.1em;
   color: #17B794;
   font-size: 22px !important;
 }
-.gtco-services .service p {
+.gtco-fproject .fproject p {
   text-align: left;
   color: #898989;
   font-size: 15px;
 }
-.gtco-services .service p:last-child {
+.gtco-fproject .fproject p:last-child {
   margin-bottom: 0;
 }
-.gtco-services .service.changed {
+.gtco-fproject .fproject.changed {
   bottom: -7em;
 }
 @media screen and (max-width: 768px) {
-  .gtco-services .service.changed {
+  .gtco-fproject .fproject.changed {
     bottom: 0;
   }
 }
