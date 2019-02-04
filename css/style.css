@@ -458,21 +458,21 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-.gtco-products .one-row, .gtco-products .two-row {
+.gtco-assignments .one-row, .gtco-assignments .two-row {
   width: 100%;
   display: block;
   margin-bottom: 30px;
 }
-.gtco-products .two-row {
+.gtco-assignments .two-row {
   height: 239px;
 }
-.gtco-products .one-row {
+.gtco-assignments .one-row {
   height: 508px;
 }
-.gtco-products .gtco-item {
+.gtco-assignments .gtco-item {
   position: relative;
 }
-.gtco-products .gtco-item .overlay {
+.gtco-assignments .gtco-item .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -485,7 +485,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.gtco-products .gtco-item .overlay i {
+.gtco-assignments .gtco-item .overlay i {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 14;
   color: #fff;
 }
-.gtco-products .gtco-item .overlay .copy {
+.gtco-assignments .gtco-item .overlay .copy {
   bottom: -20px;
   position: absolute;
   left: 0;
@@ -505,21 +505,21 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.gtco-products .gtco-item .overlay .copy h3 {
+.gtco-assignments .gtco-item .overlay .copy h3 {
   color: #fff;
   margin: 0 0 10px 0;
   padding: 0;
   font-size: 18px;
   font-weight: 400;
 }
-.gtco-products .gtco-item .overlay .copy p {
+.gtco-assignments .gtco-item .overlay .copy p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
 }
-.gtco-products .gtco-item .overlay .copy p:last-child {
+.gtco-assignments .gtco-item .overlay .copy p:last-child {
   margin-bottom: 0;
 }
-.gtco-products .gtco-item .overlay:before {
+.gtco-assignments .gtco-item .overlay:before {
   z-index: 7;
   content: "";
   position: absolute;
@@ -537,11 +537,11 @@ h1, h2, h3, h4, h5, h6, figure {
   background: linear-gradient(to right, #3dcdbc 0%, #33a1bd 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dcdbc', endColorstr='#33a1bd', GradientType=1 );
 }
-.gtco-products .gtco-item:hover .overlay {
+.gtco-assignments .gtco-item:hover .overlay {
   opacity: 1;
   visibility: visible;
 }
-.gtco-products .gtco-item:hover .overlay .copy {
+.gtco-assignments .gtco-item:hover .overlay .copy {
   bottom: 0;
   opacity: 1;
   visibility: visible;
