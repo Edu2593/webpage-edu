@@ -243,6 +243,7 @@ img.mfp-img {
   max-width: 100%;
   height: auto;
   display: block;
+  overflow: scroll;
   line-height: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
