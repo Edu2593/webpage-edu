@@ -74,8 +74,9 @@
 							<li class="has-dropdown">
 								<a href="fproject.html">Final project</a>
 								<ul class="dropdown">
-									<li><a href="concept.html">Idea concept</a></li>
-									<li><a href="design.html">Project design</a></li>
+									<li><a href="mechanical.html">Mechanical design</a></li>
+									<li><a href="electronics.html">Electronics</a></li>
+									<li><a href="programming.html">Programming</a></li>
 								</ul>
 							</li>
 							<li class="has-dropdown active">
@@ -118,7 +119,7 @@
 								<div class="row">
 									<div class="col-md-8 animate-box">
 										<h1 class="no-margin">Computer-Controlled Cutting</h1>
-										<p>Characterize the lasercutter &amp; Design, lasercut, and document a parametric <i>press-fit construction kit</i></p>
+										<p>Design, lasercut, and document a parametric <i>press-fit construction kit &amp; Vinyl cut</i></p>
 									</div>
 								</div>
 							</div>
@@ -134,13 +135,98 @@
 				<div class="row">
 					<div class="gtco-heading text-justify">
 						<h2>Introduction</h2>
-						<p>It is the first time I make a laser cut on my own. Generally, it is a service, however now I am the maker.
+						<p>It is the first time I make a laser cut on my own. Generally, it is a service that I pay for, however now I am the maker.
 						Similarly, I had never heard of vinyl cutting before, but here we go. This time, as part of the assessment,
 						there is a group and an individual part. I realized that the group part, which is about laser cutting, is
-						important because is the start point of the individual part. From the group activity the cutting parameters
+						important because is the start point of the individual part. From the group activity, the cutting parameters
 						and the measurement of the <i>kerf</i> will be found depending on the material which will be cut. These data are
 						important to make the cut of the <i>press-fit construction kit</i>.</p>
-						<h2>Laser Cutting</h2>
+						<h2>Laser cutting</h2>
+						<h3>Parametric design</h3>
+						<p>For the parametric design in <i>Fusion 360</i>, I was guided by this <a href="https://www.youtube.com/watch?v=QzarJL7dFYU" class="popup-youtube"><i>tutorial</i></a>.
+						The following are the steps I followed to make my parametric design.</p>
+
+						<div class="row">
+							<div class="col-md-12">
+								<div class="owl-carousel owl-carousel-carousel">
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 1</h4>
+											<p class="role">Sketch</p>
+											<p>I started doing a one-piece sketch in <i>Fusion 360</i> for the press fit construction kit.</p>
+											<a href="images/week04/Parametric1.jpg" class="image-popup"><img src="images/week04/Parametric1.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 2</h4>
+											<p class="role">Change parameters</p>
+											<p>In the <i>MODIFY</i> menu, there is an option called <i>Change Parameters</i>. That is where we will put parametric values.</p>
+											<a href="images/week04/Parametric2.jpg" class="image-popup"><img src="images/week04/Parametric2.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 3</h4>
+											<p class="role">Add user parameters</p>
+											<p>When adding user parameters a dialog box appears in which you have to put the name of the parameter, the units, the value, and a comment.</p>
+											<a href="images/week04/Parametric3.jpg" class="image-popup"><img src="images/week04/Parametric3.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 4</h4>
+											<p class="role">Sketch</p>
+											<p>Back in the sketch, when dimensioning the distances, angles and so on, you can put the name of the parametric values.</p>
+											<a href="images/week04/Parametric4.jpg" class="image-popup"><img src="images/week04/Parametric4.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 5</h4>
+											<p class="role">Sketch</p>
+											<p>After dimensioning, you will notice that it is parameterized because an <i>fx:</i> will appear next to the numerical value.</p>
+											<a href="images/week04/Parametric5.jpg" class="image-popup"><img src="images/week04/Parametric5.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 6</h4>
+											<p class="role">Solid</p>
+											<p>When the solid is extruded, you can go back to the <i>change parameters</i> option and change the values there.</p>
+											<a href="images/week04/Parametric6.jpg" class="image-popup"><img src="images/week04/Parametric6.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 7</h4>
+											<p class="role">Solid</p>
+											<p>I varied the value of the thickness of the piece and it is observed that the solid changes.</p>
+											<a href="images/week04/Parametric7.jpg" class="image-popup"><img src="images/week04/Parametric7.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="gtco-staff">
+											<h4>Step 8</h4>
+											<p class="role">Second piece</p>
+											<p>Following the previous steps, design the second piece.</p>
+											<a href="images/week04/Parametric8.jpg" class="image-popup"><img src="images/week04/Parametric8.jpg" alt="" class="img-responsive"></a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<h3>Lasercut</h3>
 						<p>The laser cutter that is counted in the <i>Fab Lab TECSUP</i> is a <i>Trotec Speedy 400</i>. To operate this machine the following steps are followed.</p>
 
 						<div class="row">
@@ -149,7 +235,6 @@
 
 									<div class="item">
 										<div class="gtco-staff">
-											<img src="images/week04/LC1.jpg" alt="" class="img-responsive">
 											<h4>Step 1</h4>
 											<p class="role">Placement</p>
 											<p>The material is placed in the cutter</i></p>
@@ -158,7 +243,6 @@
 
 									<div class="item">
 										<div class="gtco-staff">
-											<img src="images/week04/LC2.jpg" alt="" class="img-responsive">
 											<h4>Step 2</h4>
 											<p class="role"><i>z</i> axis calibration</p>
 											<p>The z-axis must be calibrated. For this, there is a stand that must be supported on the head of the machine. Then move the platform with the material until the stand falls.</p>
@@ -167,46 +251,6 @@
 
 									<div class="item">
 										<div class="gtco-staff">
-											<img src="images/week04/LC3.jpg" alt="" class="img-responsive">
-											<h4>Step 3</h4>
-											<p class="role">Import</p>
-											<p>I imported the <a href="https://freehtml5.co/cube-free-html5-bootstrap-website-template/">template</a> code from the website using the web URL.</p>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-						<h3>Cutting Parameters</h3>
-						<p>To determine the cutting parameters, 24 samples were made, in which the parameters were varied, in the case of cutting,
-						power, speed and frequency; and in the case of engraving, power, speed and PPI. The material that was used is 3 mm thick mdf.</p>
-
-						<div class="row">
-							<div class="col-md-12">
-								<div class="owl-carousel owl-carousel-carousel">
-
-									<div class="item">
-										<div class="gtco-staff">
-											<img src="images/week04/CP1.jpg" alt="" class="img-responsive">
-											<h4>Step 1</h4>
-											<p class="role">Placement</p>
-											<p>The material is placed in the cutter</i></p>
-										</div>
-									</div>
-
-									<div class="item">
-										<div class="gtco-staff">
-											<img src="images/week04/CP2.jpg" alt="" class="img-responsive">
-											<h4>Step 2</h4>
-											<p class="role"><i>z</i> axis calibration</p>
-											<p>The z-axis must be calibrated. For this, there is a stand that must be supported on the head of the machine. Then move the platform with the material until the stand falls.</p>
-										</div>
-									</div>
-
-									<div class="item">
-										<div class="gtco-staff">
-											<img src="images/week04/CP3.jpg" alt="" class="img-responsive">
 											<h4>Step 3</h4>
 											<p class="role">Import</p>
 											<p>I imported the <a href="https://freehtml5.co/cube-free-html5-bootstrap-website-template/">template</a> code from the website using the web URL.</p>
@@ -215,7 +259,6 @@
 
 									<div class="item">
 										<div class="gtco-staff">
-											<img src="images/week04/CP4.jpg" alt="" class="img-responsive">
 											<h4>Step 4</h4>
 											<p class="role">Import</p>
 											<p>I imported the <a href="https://freehtml5.co/cube-free-html5-bootstrap-website-template/">template</a> code from the website using the web URL.</p>
@@ -230,17 +273,31 @@
 						I made the cut of the "Press-fit Construction Kit". As a result, the laser did not finish penetrating the
 						MDF and could not cut it completely. This is because the lens of the laser cutter had already become dirty,
 						and it is an external factor that must be taken into account.</p>
-						<h3><i>Kerf</i></h3>
-						<h3>Parametric design</h3>
-						<h3><i>Press-fit Construction Kit</i></h3>
 
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 gtco-heading text-justify">
-						<h2>Vinyl Cutting</h2>
+					<div class="gtco-heading text-justify">
+						<h2>Vinyl cutting</h2>
 						<p></p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="gtco-heading text-justify">
+						<h2>Files</h2>
+						<h3>Laser cutting</h3>
+							<ul>
+								<li><a href="files/week03/IzukuMidoriya.png" download>PNG file</a></li>
+								<li><a href="files/week03/IzukuMidoriyaBW.xcf" download>GIMP file</a></li>
+								<li><a href="files/week03/IzukuMidoriyaBW.png" download>PNG file B/W</a></li>
+								<li><a href="files/week03/IzukuMidoriya.svg" download>SVG file</a></li>
+							</ul>
+						<h3>Vinyl cutting</h3>
+							<ul>
+								<li><a href="files/week03/Asiento v1.stl" download>Seat - STL file</a></li>
+							</ul>
 					</div>
 				</div>
 
