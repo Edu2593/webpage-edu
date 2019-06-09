@@ -1882,3 +1882,8 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
